@@ -21,10 +21,9 @@ extension Wrapper where Base: ImageView {
         //防止options为空 使用默认的空数组做后续操作
         let options = WebImageParsedOptionsInfo(WebImageManager.shared.defaultOptions + (options ?? .empty))
         let noImageOrPlaceholderSet = base.image == nil && self.placeholder == nil
-        if noImageOrPlaceholderSet {
+        if !options.keepCurrentImageWhileLoading || noImageOrPlaceholderSet {
             mutatingSelf.placeholder = placeholder
         }
-        
         
         //保存一个标示 用来判断回调时还是否是当前ImageView 在TableView重用时将起作用
         let issuedIdentifier = Identifier.next()
@@ -103,12 +102,12 @@ extension Wrapper where Base: ImageView {
     
     public private(set) var taskIdentifier: Identifier.Value? {
         get {
-            let box: Box<Identifier.Value>? = objc_getAssociatedObject(base, &taskIdentifierKey) as? Box<Identifier.Value>
-            return box?.value
+            let b: Box<Identifier.Value>? = objc_getAssociatedObject(base, &taskIdentifierKey) as? Box<Identifier.Value>
+            return b?.value
         }
         set {
-            let box = newValue.map { Box($0) }
-            objc_setAssociatedObject(base, &taskIdentifierKey, box, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            let b = newValue.map { Box($0) }
+            objc_setAssociatedObject(base, &taskIdentifierKey, b, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }
     }
     

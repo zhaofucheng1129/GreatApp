@@ -169,8 +169,8 @@ extension ImageView {
 
 extension ImageView {
     private func reset() {
+        animator = nil
         if let animImage = image as? Image {
-            animator = nil
             let size = CGSize(width: width * UIScreen.main.scale, height: height * UIScreen.main.scale)
             if let animator = Animator(image: animImage, size: size, frameCacheMode: frameCacheMode, contentMode: contentMode, framePreloadCount: framePreloadCount, repeatCount: repeatCount) {
                 animator.needsPrescaling = needsPrescaling

@@ -29,6 +29,8 @@ public struct WebImageParsedOptionsInfo {
     // 默认优先级
     public var downloadPriority: Float = URLSessionTask.defaultPriority
     
+    public var keepCurrentImageWhileLoading = false
+    
     public init(_ info: WebImageOptionsInfo?) {
         guard let info = info else { return }
         for option in info {

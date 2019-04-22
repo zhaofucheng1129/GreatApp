@@ -281,11 +281,7 @@ class Decoder {
     private func _frame(at index: Int, decodeForDisplay: Bool) -> CGImage? {
         if index >= frames.count { return nil }
         var decoded = false
-        let extendToCanvas = decodeForDisplay
-//        if type != .ICO && decodeForDisplay {
-//            extendToCanvas = true
-//        }
-        
+        let extendToCanvas = decodeForDisplay        
         if !needBlend {
             guard var imageRef = _newUnblendedImage(at: index, extendToCanvas: extendToCanvas, decoded: &decoded) else { return nil}
             if decodeForDisplay && !decoded {
@@ -393,6 +389,7 @@ class Decoder {
             let bitsPerComponent = 8
             let bitsPerPixel = 32
             //字节对齐
+            // 块的大小跟CPU 的缓存有关，ARMv7是32byte，A9是64byte，在A9下CoreAnimation应该是按64byte作为一块数据去读取和渲染，让图像数据对齐64byte就可以避免CoreAnimation再拷贝一份数据。能节约内存和进行copy的时间。
             let bytesPerRow = ((bitsPerPixel / 8 * width + (64 - 1)) / 64) * 64;
             let length = bytesPerRow * height
             //iphone是小端模式

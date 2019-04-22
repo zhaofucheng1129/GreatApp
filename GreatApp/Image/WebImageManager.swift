@@ -32,9 +32,9 @@ public class WebImageManager {
                        progressBlock: DownloadProgressBlock? = nil,
                        completionHandler: ((Result<Image, WebImageError>) -> Void)?) -> DownloadTask? {
         if options.forceRefresh {
-            return loadAndCacheImage(with: url, options: options, completionHandler: completionHandler)
+            return loadAndCacheImage(with: url, options: options, progressBlock: progressBlock, completionHandler: completionHandler)
         } else {
-            return loadAndCacheImage(with: url, options: options, completionHandler: completionHandler)
+            return loadAndCacheImage(with: url, options: options, progressBlock: progressBlock, completionHandler: completionHandler)
         }
     }
     
