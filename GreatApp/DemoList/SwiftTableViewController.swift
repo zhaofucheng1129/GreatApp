@@ -21,6 +21,7 @@ class SwiftTableViewController: UIViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: SwiftTableViewController.cellId)
         addCell("加载本地图片", className: "LocalImageDisplayExample")
         addCell("加载网络图片", className: "UrlImageDisplayExample")
+        addCell("CoreText字形动画", className: "FontGraphicsAnimationExample")
         addCell("测试界面", className: "TestViewController")
         tableView.reloadData()
     }

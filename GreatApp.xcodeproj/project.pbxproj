@@ -77,6 +77,8 @@
 		83AC7ED422650E5E00176295 /* 20131026000010-19095.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AC7ED022650E5E00176295 /* 20131026000010-19095.png */; };
 		83AC7ED522650E5E00176295 /* 5964905b64346.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AC7ED122650E5E00176295 /* 5964905b64346.png */; };
 		83AC7ED622650E5E00176295 /* 1109574358211117497.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AC7ED222650E5E00176295 /* 1109574358211117497.png */; };
+		83B0B2D0226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B0B2CF226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift */; };
+		83B0B2D2226F1999003BD2B5 /* pen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83B0B2D1226F1999003BD2B5 /* pen@2x.png */; };
 		83BF177A226897390077D8F2 /* bpg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF1778226897390077D8F2 /* bpg.framework */; };
 		83BF177B226897390077D8F2 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF1779226897390077D8F2 /* WebP.framework */; };
 		83C42D682264498700BC11D4 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C42D672264498700BC11D4 /* ImageFormat.swift */; };
@@ -183,6 +185,8 @@
 		83AC7ED022650E5E00176295 /* 20131026000010-19095.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20131026000010-19095.png"; sourceTree = "<group>"; };
 		83AC7ED122650E5E00176295 /* 5964905b64346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5964905b64346.png; sourceTree = "<group>"; };
 		83AC7ED222650E5E00176295 /* 1109574358211117497.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1109574358211117497.png; sourceTree = "<group>"; };
+		83B0B2CF226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontGraphicsAnimationExample.swift; sourceTree = "<group>"; };
+		83B0B2D1226F1999003BD2B5 /* pen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pen@2x.png"; sourceTree = "<group>"; };
 		83BF1777226896520077D8F2 /* wall-e_anim@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wall-e_anim@2x.webp"; sourceTree = "<group>"; };
 		83BF1778226897390077D8F2 /* bpg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = bpg.framework; path = GreatApp/Vendor/bpg.framework; sourceTree = "<group>"; };
 		83BF1779226897390077D8F2 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebP.framework; path = GreatApp/Vendor/WebP.framework; sourceTree = "<group>"; };
@@ -267,6 +271,7 @@
 				83DC0F91222D2A5E003B73B8 /* SwiftTableViewController.swift */,
 				83236FB3226E17B2000B902A /* LocalImageDisplayExample.swift */,
 				83236FB5226E2160000B902A /* UrlImageDisplayExample.swift */,
+				83B0B2CF226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift */,
 				8371F1172250CCF400C23468 /* TestViewController.swift */,
 			);
 			path = DemoList;
@@ -283,6 +288,7 @@
 		8371F0BC2250CC8B00C23468 /* Demo Images */ = {
 			isa = PBXGroup;
 			children = (
+				83B0B2D1226F1999003BD2B5 /* pen@2x.png */,
 				83DF7733226B8D52006F2D6E /* banana_anim@2x.webp */,
 				83DF7734226B8D52006F2D6E /* Rubik'sCube_anim@2x.webp */,
 				83BF1777226896520077D8F2 /* wall-e_anim@2x.webp */,
@@ -525,6 +531,7 @@
 				83DC0F9A222D2A5F003B73B8 /* LaunchScreen.storyboard in Resources */,
 				83C42D8122645F3E00BC11D4 /* 93f8089dgy1fun2fhm3amg20av0604qs.gif in Resources */,
 				8383050922630A3F004F4E4E /* 00003.jpg in Resources */,
+				83B0B2D2226F1999003BD2B5 /* pen@2x.png in Resources */,
 				8383050F22630A3F004F4E4E /* 162944t6ovo7ev6xh31290.jpg in Resources */,
 				8396F1D1226705700002FB3D /* large_leaves_70mp.jpg in Resources */,
 				8383050C22630A3F004F4E4E /* 20180829085741.jpg in Resources */,
@@ -619,6 +626,7 @@
 				8399C371225DF15F00E538DC /* UIScrollViewExtensions.swift in Sources */,
 				83D5F3F62258E14A002B6FD3 /* StringExtensions.swift in Sources */,
 				83236FB8226E2631000B902A /* CALayerExtensions.swift in Sources */,
+				83B0B2D0226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift in Sources */,
 				83236FAC226D9D98000B902A /* WebImageError.swift in Sources */,
 				838304CF22605749004F4E4E /* DateExtensions.swift in Sources */,
 				83236FA4226D85E1000B902A /* WebImageManager.swift in Sources */,
