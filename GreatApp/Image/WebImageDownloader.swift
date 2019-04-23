@@ -177,6 +177,12 @@ open class WebImageDownloader {
                         DispatchQueue.main.safeAsync {
                             callback.onCompleted?.call(.success(imageResult))
                         }
+                    } else {
+                        let error = WebImageError.imageDecodeError(reason: .unknownImageData(raw: data))
+                        self.delegate?.imageDownloader(self, didFinishDownloadingImageForURL: url, with: response, error: error)
+                        DispatchQueue.main.safeAsync {
+                            callback.onCompleted?.call(.failure(error))
+                        }
                     }
                 case .failure(let error):
                     callbacks.forEach{ callback in

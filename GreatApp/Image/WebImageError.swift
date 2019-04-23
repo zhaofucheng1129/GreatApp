@@ -50,11 +50,34 @@ public enum WebImageError: Error {
         case notCurrentSourceTask(result: Image?, error: Error?, source: URL)
     }
     
+    public enum ImageDecodeErrorReason {
+        // 未知的图片数据 Code 6001
+        case unknownImageData(raw: Data)
+    }
+    
     case responseError(reason: ResponseErrorReason)
     
     case requestError(reason: RequestErrorReason)
     
     case imageSettingError(reason: ImageSettingErrorReason)
+    
+    case imageDecodeError(reason: ImageDecodeErrorReason)
+}
+
+extension WebImageError.ImageDecodeErrorReason {
+    var errorDescription: String? {
+        switch self {
+        case .unknownImageData(raw: _):
+            return "未知格式的图片数据"
+        }
+    }
+    
+    var errorCode: Int {
+        switch self {
+        case .unknownImageData(raw: _):
+            return 6001
+        }
+    }
 }
 
 extension WebImageError.ImageSettingErrorReason {
