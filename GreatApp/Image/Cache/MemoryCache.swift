@@ -142,7 +142,7 @@ public class MemoryCache: NSObject {
     
     public static let `default` = MemoryCache()
     
-    public var cacheSizeLimit = 1024 * 1024 * 50
+    public var cacheSizeLimit = 8 * 1024 * 1024 * 100
     public var maxLengthForLRU = 400
     public var maxLengthForFIFO = 400
     
