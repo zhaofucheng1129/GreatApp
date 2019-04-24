@@ -18,8 +18,16 @@
 
 <img src="https://raw.githubusercontent.com/zhaofucheng1129/GreatApp/master/Screenshots/20190423_183336.GIF" alt="加载本地图片演示" title="加载本地图片演示" display="inline"/>
 
+
+
+## Features
+
+- 解析WebP、APNG等动图格式
+- 双链表内存缓存（避免缓存污染）
+
 ## Todo
 
+- 缓存重新绘制过的小尺寸图片
 - mmap的缓存策略
 - 异步显示布局界面
 
