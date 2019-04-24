@@ -34,7 +34,11 @@ public class WebImageManager {
         if options.forceRefresh {
             return loadAndCacheImage(with: url, options: options, progressBlock: progressBlock, completionHandler: completionHandler)
         } else {
-            return loadAndCacheImage(with: url, options: options, progressBlock: progressBlock, completionHandler: completionHandler)
+            if MemoryCache.default.contain(for: url.absoluteString) {
+                return getCacheImage(with: url, options: options, completionHandler: completionHandler)
+            } else {
+                return loadAndCacheImage(with: url, options: options, progressBlock: progressBlock, completionHandler: completionHandler)
+            }
         }
     }
     
@@ -43,10 +47,23 @@ public class WebImageManager {
                            completionHandler: ((Result<Image, WebImageError>) -> Void)?) -> DownloadTask? {
         
         func cacheImage(_ result: Result<Image, WebImageError>) {
+            switch result {
+            case .success(let image):
+                MemoryCache.default.cache(image: image, url: url.absoluteString)
+            default:
+                break
+            }
             completionHandler?(result)
         }
-        
         return downloader.downloadImage(with: url, options: options, progressBlock: progressBlock, completionHandler: cacheImage)
+    }
+    
+    func getCacheImage(with url: URL, options: WebImageParsedOptionsInfo,
+                       completionHandler: ((Result<Image, WebImageError>) -> Void)?) -> DownloadTask? {
+        if let image = MemoryCache.default.image(with: url.absoluteString) {
+            completionHandler?(.success(image))
+        }
+        return nil
     }
     
 }

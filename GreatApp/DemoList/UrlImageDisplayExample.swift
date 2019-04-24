@@ -19,6 +19,7 @@ class UrlImageCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         backgroundColor = UIColor.clear
         contentView.backgroundColor = UIColor.clear
+        selectionStyle = .none
         
         contentView.addSubview(urlImageView)
         urlImageView.contentMode = .scaleAspectFill
@@ -134,14 +135,14 @@ class UrlImageDisplayExample: UITableViewController {
         "http://d.hiphotos.baidu.com/image/h%3D300/sign=e95179517d8da977512f802b8050f872/91529822720e0cf3740bf4990446f21fbf09aad0.jpg",
         
         "http://5b0988e595225.cdn.sohucs.com/images/20181011/f8150319317b4a9e93adbbc7d39a511b.gif",
-        "http://img.zcool.cn/community/038f39e58e5ceefa801219c77372908.gif",
+    "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556113428055&di=1d8e7268ed7afe0db8eded159fee79b8&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F31%2F20181031214919_ebsvd.gif",
         "http://images01.mopimg.cn/imgs/20180105/20180105_b18f8be32578981c14817ba2cae536d9.GIF",
         "http://g.hiphotos.baidu.com/image/pic/item/960a304e251f95caef9fc8dbc2177f3e67095270.jpg",
         "http://hbimg.b0.upaiyun.com/d9a615eb35e32f6135c3abcfa754d1a8cac6d8d78e1b4-YuLQeL_fw658",
         "http://hbimg.b0.upaiyun.com/d46843eaca6be4e249b2a05687e5ed80019e5d31f000a-MFBejP_fw658",
-        "http://s9.rr.itc.cn/r/wapChange/20171_11_17/a76q7a5718413873619.gif",
+    "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556113514430&di=d88f5f039c55ba8e1917a26e82085519&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c2635af405baa801207ab44d5159.gif",
         "http://hbimg.b0.upaiyun.com/9360d6299ac35682cbf0ddb05ab51b2d83d13cf029586c-Tk25d5_fw658",
-        "http://a.hiphotos.baidu.com/image/pic/item/42a98226cffc1e174ab08f4a4190f603738de9ba.jpg",
+        "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2238577292,88986602&fm=26&gp=0.jpg",
         "http://a.hiphotos.baidu.com/image/pic/item/7aec54e736d12f2e69c73c6a44c2d562843568fe.jpg",
         "http://s9.rr.itc.cn/r/wapChange/20167_21_23/a9mlo09282513470362.jpg",
         "http://hbimg.b0.upaiyun.com/89d4be26a519457eadb8dc4379f9e70b1b6c90fbffa2f-2SeNdX_fw658",

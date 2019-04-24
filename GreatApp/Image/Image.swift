@@ -54,8 +54,8 @@ public class Image: UIImage {
     private let animatedImageType: ImageFormat = .UnKnown
     private var decoder: Decoder
     private var _bytesPerFrame: Int = 0
-    private var memorySize: Int {
-        return _bytesPerFrame * decoder.frameCount
+    public var memorySize: Int64 {
+        return Int64(_bytesPerFrame * decoder.frameCount)
     }
     
     convenience init?(named name: String) {
