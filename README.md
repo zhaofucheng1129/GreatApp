@@ -12,7 +12,7 @@
 
 图片加载演示
 
-<img src="https://raw.githubusercontent.com/zhaofucheng1129/GreatApp/master/Screenshots/20190423_025709.GIF" alt="加载本地图片演示" title="加载本地图片演示" display="inline"/><img src="https://raw.githubusercontent.com/zhaofucheng1129/GreatApp/master/Screenshots/20190423_025827.GIF" alt="加载网络图片演示" title="加载网络图片演示" display="inline"/>
+<img src="https://raw.githubusercontent.com/zhaofucheng1129/GreatApp/master/Screenshots/20190423_025709.GIF" alt="加载本地图片演示" title="加载本地图片演示" display="inline"/><img src="https://raw.githubusercontent.com/zhaofucheng1129/GreatApp/master/Screenshots/20190424_194412.GIF" alt="加载网络图片演示" title="加载网络图片演示" display="inline"/>
 
 字形动画演示
 
