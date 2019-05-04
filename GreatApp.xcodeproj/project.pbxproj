@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8304AEC5227DFE8900F81267 /* MetalVeryBaseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */; };
 		8304AEC9227DFF7600F81267 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8304AEC7227DFF7600F81267 /* Shaders.metal */; };
+		8304AECB227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8304AECA227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 */; };
+		8304AECD227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304AECC227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift */; };
 		83236FA2226D8580000B902A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA1226D8580000B902A /* Extensions.swift */; };
 		83236FA4226D85E1000B902A /* WebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA3226D85E1000B902A /* WebImageManager.swift */; };
 		83236FA6226D868D000B902A /* WebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA5226D868D000B902A /* WebImageDownloader.swift */; };
@@ -122,6 +124,8 @@
 		8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVeryBaseExample.swift; sourceTree = "<group>"; };
 		8304AEC7227DFF7600F81267 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		8304AEC8227DFF7600F81267 /* TOShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOShaderTypes.h; sourceTree = "<group>"; };
+		8304AECA227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = C400003ebMYY2PGmn6.mp4; sourceTree = "<group>"; };
+		8304AECC227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitPlayMusicWithAUGraphExample.swift; sourceTree = "<group>"; };
 		83236FA1226D8580000B902A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		83236FA3226D85E1000B902A /* WebImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageManager.swift; sourceTree = "<group>"; };
 		83236FA5226D868D000B902A /* WebImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageDownloader.swift; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				8371F1172250CCF400C23468 /* TestViewController.swift */,
 				83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */,
 				8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */,
+				8304AECC227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift */,
 			);
 			path = DemoList;
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 			isa = PBXGroup;
 			children = (
 				83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */,
+				8304AECA227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 */,
 			);
 			path = "Demo Music";
 			sourceTree = "<group>";
@@ -586,6 +592,7 @@
 				8383050C22630A3F004F4E4E /* 20180829085741.jpg in Resources */,
 				83C42D7C22645F3E00BC11D4 /* 4e6c6999a1004858ae20551d8c12e574.gif in Resources */,
 				8383050222630A3F004F4E4E /* 2018081509393387_11.jpg in Resources */,
+				8304AECB227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 in Resources */,
 				83AC7ED622650E5E00176295 /* 1109574358211117497.png in Resources */,
 				838304FE22630A3F004F4E4E /* 235302arrkwxaiwjrrm73r.jpg in Resources */,
 				83841DBE227DD92200D02B66 /* C400003LA9Mi3gUHcK.mp4 in Resources */,
@@ -702,6 +709,7 @@
 				83236FB6226E2160000B902A /* UrlImageDisplayExample.swift in Sources */,
 				8399C377225F3B1400E538DC /* UIControlExtensions.swift in Sources */,
 				83A5A44D2256581200629184 /* UIViewExtensions.swift in Sources */,
+				8304AECD227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift in Sources */,
 				8399C37B225F765100E538DC /* NSObjectExtensions.swift in Sources */,
 				83C42D6A226449C300BC11D4 /* Wrapper.swift in Sources */,
 				8399C379225F6A4400E538DC /* UIGestureRecognizerExtensions.swift in Sources */,

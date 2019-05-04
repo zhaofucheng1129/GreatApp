@@ -31,7 +31,7 @@ class AudioUnitPlayMusicExample: UIViewController {
         view.addSubview(label)
         
         setupAudioSession()
-        setupPlayGraph()
+        setupPlayFile()
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -51,7 +51,7 @@ class AudioUnitPlayMusicExample: UIViewController {
         }
     }
     
-    func setupPlayGraph() {
+    func setupPlayFile() {
         if let audioFile = audioFile {
             ExtAudioFileDispose(audioFile)
             self.audioFile = nil
@@ -81,10 +81,10 @@ class AudioUnitPlayMusicExample: UIViewController {
         size = UInt32(MemoryLayout<UInt32>.size)
         ExtAudioFileGetProperty(audioFile, kExtAudioFileProperty_ClientMaxPacketSize, &size, &packetSize);
         
-        setupAudioUnitRenderWithAudioDesc(audioDesc: clientDesc)
+        setupAudioUnit(audioDesc: clientDesc)
     }
     
-    func setupAudioUnitRenderWithAudioDesc( audioDesc: AudioStreamBasicDescription) {
+    func setupAudioUnit(audioDesc: AudioStreamBasicDescription) {
         var varAudioDesc = audioDesc
         var componentDesc = AudioComponentDescription(componentType: kAudioUnitType_Output,
                                   componentSubType: kAudioUnitSubType_RemoteIO,
@@ -150,7 +150,7 @@ class AudioUnitPlayMusicExample: UIViewController {
         playing = false
     }
     
-    public func CheckError(_ error: OSStatus, _ operation: String) -> Void
+    func CheckError(_ error: OSStatus, _ operation: String) -> Void
     {
         if (error == noErr) { return }
         

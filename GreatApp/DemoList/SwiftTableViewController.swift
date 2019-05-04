@@ -23,6 +23,7 @@ class SwiftTableViewController: UIViewController {
         addCell("加载网络图片", className: "UrlImageDisplayExample")
         addCell("CoreText字形动画", className: "FontGraphicsAnimationExample")
         addCell("AudioUnit播放音乐", className: "AudioUnitPlayMusicExample")
+        addCell("AudioUnit播放音乐AUGraph方式", className: "AudioUnitPlayMusicWithAUGraphExample")
         addCell("Metal中的HelloWorld", className: "MetalVeryBaseExample")
         addCell("测试界面", className: "TestViewController")
         tableView.reloadData()
