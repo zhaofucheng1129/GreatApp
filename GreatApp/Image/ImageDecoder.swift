@@ -48,17 +48,17 @@ class Decoder {
     @discardableResult
     func update(data: Data, final: Bool) -> Bool {
         var result = false
-//        pthread_mutex_lock(lock)
+        pthread_mutex_lock(lock)
         result = _update(data: data, final: final)
-//        pthread_mutex_unlock(lock)
+        pthread_mutex_unlock(lock)
         return result
     }
     
     func frame(at index: Int, decodeForDisplay: Bool) -> CGImage? {
         var result: CGImage? = nil
-//        pthread_mutex_lock(lock)
+        pthread_mutex_lock(lock)
         result = _frame(at: index, decodeForDisplay: decodeForDisplay)
-//        pthread_mutex_unlock(lock)
+        pthread_mutex_unlock(lock)
         return result
     }
     

@@ -135,7 +135,6 @@ class UrlImageDisplayExample: UITableViewController {
         "http://d.hiphotos.baidu.com/image/h%3D300/sign=e95179517d8da977512f802b8050f872/91529822720e0cf3740bf4990446f21fbf09aad0.jpg",
         
         "http://5b0988e595225.cdn.sohucs.com/images/20181011/f8150319317b4a9e93adbbc7d39a511b.gif",
-    "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1556113428055&di=1d8e7268ed7afe0db8eded159fee79b8&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F31%2F20181031214919_ebsvd.gif",
         "http://images01.mopimg.cn/imgs/20180105/20180105_b18f8be32578981c14817ba2cae536d9.GIF",
         "http://g.hiphotos.baidu.com/image/pic/item/960a304e251f95caef9fc8dbc2177f3e67095270.jpg",
         "http://hbimg.b0.upaiyun.com/d9a615eb35e32f6135c3abcfa754d1a8cac6d8d78e1b4-YuLQeL_fw658",
@@ -148,14 +147,12 @@ class UrlImageDisplayExample: UITableViewController {
         "http://hbimg.b0.upaiyun.com/89d4be26a519457eadb8dc4379f9e70b1b6c90fbffa2f-2SeNdX_fw658",
         
         "http://s7.sinaimg.cn/mw690/002YXZYygy6TQIvMLZk06&690",
-        "http://hbimg.b0.upaiyun.com/42c4924e4a110fe9e7f7c3121b8593f653f211781a0993-DMLnji_fw658",
         
         "http://img4.imgtn.bdimg.com/it/u=254618362,2906926008&fm=200&gp=0.jpg",
         "http://pic3.16pic.com/00/50/33/16pic_5033174_b.jpg",
         "http://cdn.duitang.com/uploads/item/201402/27/20140227194048_vHzJC.jpeg",
         "http://pic1.16pic.com/00/49/83/16pic_4983642_b.jpg",
         "http://i0.hdslb.com/bfs/article/c31701a0a1fc0220f95f2567b4812453277e7433.jpg",
-        "http://pic1.16pic.com/00/07/65/16pic_765243_b.jpg",
         "http://b-ssl.duitang.com/uploads/item/201710/01/20171001105830_wWQej.jpeg",
         "http://i2.hdslb.com/bfs/archive/b8ac9e6173c533cca163418168f93bcc7f030a46.jpg",
         "http://i0.hdslb.com/bfs/archive/18aa596df3e73b48e454074974af4fb0f33fc7c4.jpg",

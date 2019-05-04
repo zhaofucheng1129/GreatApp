@@ -15,3 +15,5 @@
 #import "webp/demux.h"
 #import "webp/mux.h"
 #endif
+
+#import "TOShaderTypes.h"

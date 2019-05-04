@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8304AEC5227DFE8900F81267 /* MetalVeryBaseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */; };
+		8304AEC9227DFF7600F81267 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8304AEC7227DFF7600F81267 /* Shaders.metal */; };
 		83236FA2226D8580000B902A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA1226D8580000B902A /* Extensions.swift */; };
 		83236FA4226D85E1000B902A /* WebImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA3226D85E1000B902A /* WebImageManager.swift */; };
 		83236FA6226D868D000B902A /* WebImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83236FA5226D868D000B902A /* WebImageDownloader.swift */; };
@@ -55,6 +57,8 @@
 		8383050E22630A3F004F4E4E /* 80bec00dgw1eqjon0v1uxj22yo1o0tx2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 838304F022630A3E004F4E4E /* 80bec00dgw1eqjon0v1uxj22yo1o0tx2.jpg */; };
 		8383050F22630A3F004F4E4E /* 162944t6ovo7ev6xh31290.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 838304F122630A3F004F4E4E /* 162944t6ovo7ev6xh31290.jpg */; };
 		838305112263275B004F4E4E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838305102263275B004F4E4E /* Image.swift */; };
+		83841DBB227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */; };
+		83841DBE227DD92200D02B66 /* C400003LA9Mi3gUHcK.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */; };
 		8396F1D1226705700002FB3D /* large_leaves_70mp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8396F1D0226705700002FB3D /* large_leaves_70mp.jpg */; };
 		8399C352225B388800E538DC /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8399C351225B388800E538DC /* UIDeviceExtensions.swift */; };
 		8399C35B225C826A00E538DC /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8399C35A225C826A00E538DC /* UIApplicationExtensions.swift */; };
@@ -115,6 +119,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalVeryBaseExample.swift; sourceTree = "<group>"; };
+		8304AEC7227DFF7600F81267 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		8304AEC8227DFF7600F81267 /* TOShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOShaderTypes.h; sourceTree = "<group>"; };
 		83236FA1226D8580000B902A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		83236FA3226D85E1000B902A /* WebImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageManager.swift; sourceTree = "<group>"; };
 		83236FA5226D868D000B902A /* WebImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImageDownloader.swift; sourceTree = "<group>"; };
@@ -163,6 +170,8 @@
 		838304F022630A3E004F4E4E /* 80bec00dgw1eqjon0v1uxj22yo1o0tx2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 80bec00dgw1eqjon0v1uxj22yo1o0tx2.jpg; sourceTree = "<group>"; };
 		838304F122630A3F004F4E4E /* 162944t6ovo7ev6xh31290.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 162944t6ovo7ev6xh31290.jpg; sourceTree = "<group>"; };
 		838305102263275B004F4E4E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitPlayMusicExample.swift; sourceTree = "<group>"; };
+		83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = C400003LA9Mi3gUHcK.mp4; sourceTree = "<group>"; };
 		8396F1D0226705700002FB3D /* large_leaves_70mp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_leaves_70mp.jpg; sourceTree = "<group>"; };
 		8399C351225B388800E538DC /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		8399C353225B58FA00E538DC /* GreatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreatApp-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -239,6 +248,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8304AEC6227DFF6900F81267 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				8304AEC7227DFF7600F81267 /* Shaders.metal */,
+				8304AEC8227DFF7600F81267 /* TOShaderTypes.h */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
 		831D2D3A224B6FCC0045B671 /* WYCaricature */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +287,8 @@
 				83236FB5226E2160000B902A /* UrlImageDisplayExample.swift */,
 				83B0B2CF226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift */,
 				8371F1172250CCF400C23468 /* TestViewController.swift */,
+				83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */,
+				8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */,
 			);
 			path = DemoList;
 			sourceTree = "<group>";
@@ -347,6 +367,14 @@
 				8371F11A2250EA8F00C23468 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83841DBC227DD2EA00D02B66 /* Demo Music */ = {
+			isa = PBXGroup;
+			children = (
+				83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */,
+			);
+			path = "Demo Music";
 			sourceTree = "<group>";
 		};
 		8399C360225CA1F300E538DC /* Dispatch */ = {
@@ -466,6 +494,8 @@
 		83DC0F8E222D2A5E003B73B8 /* GreatApp */ = {
 			isa = PBXGroup;
 			children = (
+				8304AEC6227DFF6900F81267 /* Metal */,
+				83841DBC227DD2EA00D02B66 /* Demo Music */,
 				83236FB2226E175C000B902A /* AppDelegate */,
 				83236FB1226E1749000B902A /* DemoList */,
 				83A5A4472256423A00629184 /* Extensions */,
@@ -558,6 +588,7 @@
 				8383050222630A3F004F4E4E /* 2018081509393387_11.jpg in Resources */,
 				83AC7ED622650E5E00176295 /* 1109574358211117497.png in Resources */,
 				838304FE22630A3F004F4E4E /* 235302arrkwxaiwjrrm73r.jpg in Resources */,
+				83841DBE227DD92200D02B66 /* C400003LA9Mi3gUHcK.mp4 in Resources */,
 				838304FA22630A3F004F4E4E /* 170242vyyvfzsjeglgrqyf.jpg in Resources */,
 				838304F822630A3F004F4E4E /* 4C6389EBAEC7925C92C9859F43A522BB-0.jpg in Resources */,
 				83DC0F97222D2A5F003B73B8 /* Assets.xcassets in Resources */,
@@ -630,6 +661,7 @@
 				83236FAE226DA9F5000B902A /* WebImageParsedOptionsInfo.swift in Sources */,
 				8399C35B225C826A00E538DC /* UIApplicationExtensions.swift in Sources */,
 				83236FA6226D868D000B902A /* WebImageDownloader.swift in Sources */,
+				83841DBB227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift in Sources */,
 				8371F1182250CCF400C23468 /* TestViewController.swift in Sources */,
 				83709CBA226388FD0096C463 /* ImageView.swift in Sources */,
 				83D5F3F322588DB8002B6FD3 /* UITextFieldExtensions.swift in Sources */,
@@ -641,9 +673,11 @@
 				838304D122607133004F4E4E /* TimeZoneExtensions.swift in Sources */,
 				83A5A45222571E3700629184 /* CGRectExtensions.swift in Sources */,
 				8399C362225CA20100E538DC /* DispatchExtensions.swift in Sources */,
+				8304AEC5227DFE8900F81267 /* MetalVeryBaseExample.swift in Sources */,
 				83DC0F90222D2A5E003B73B8 /* AppDelegate.swift in Sources */,
 				83A5A44F2257070D00629184 /* UIImageExtensions.swift in Sources */,
 				8399C371225DF15F00E538DC /* UIScrollViewExtensions.swift in Sources */,
+				8304AEC9227DFF7600F81267 /* Shaders.metal in Sources */,
 				83D5F3F62258E14A002B6FD3 /* StringExtensions.swift in Sources */,
 				83236FB8226E2631000B902A /* CALayerExtensions.swift in Sources */,
 				83B0B2D0226EFD37003BD2B5 /* FontGraphicsAnimationExample.swift in Sources */,

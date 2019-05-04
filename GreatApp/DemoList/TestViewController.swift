@@ -16,7 +16,18 @@ class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
+        view.backgroundColor = #colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)
+        
+        let vw = UIView(frame: CGRect(x: 100, y: 100, width: 128, height: 128))
+        vw.backgroundColor = .white
+        
+        vw.layer.shadowOffset = .zero
+        vw.layer.shadowColor = UIColor.yellow.cgColor
+        vw.layer.shadowRadius = 20
+        vw.layer.shadowOpacity = 1
+        vw.layer.shadowPath = UIBezierPath(rect: vw.bounds).cgPath
+        vw.center = view.center
+        view.addSubview(vw)
         
 //        let im = Image(named: "Rubik'sCube_anim.webp")
 //        let imageView = ImageView(image: im)
@@ -25,11 +36,11 @@ class TestViewController: UIViewController {
 //        view.addSubview(imageView)
         
         
-        let imageView2 = ImageView()
-        imageView2.load.image(with: URL(string: "http://littlesvr.ca/apng/images/GenevaDrive.webp")!)
-        imageView2.frame = CGRect(origin: CGPoint(x: 100, y: 100), size: CGSize(width: 100, height: 100))
-        imageView2.contentMode = .scaleAspectFill
-        view.addSubview(imageView2)
+//        let imageView2 = ImageView()
+//        imageView2.load.image(with: URL(string: "http://littlesvr.ca/apng/images/GenevaDrive.webp")!)
+//        imageView2.frame = CGRect(origin: CGPoint(x: 100, y: 100), size: CGSize(width: 100, height: 100))
+//        imageView2.contentMode = .scaleAspectFill
+//        view.addSubview(imageView2)
         
         /// 测试Array性能
 //        var startTime = CFAbsoluteTimeGetCurrent()
