@@ -61,6 +61,8 @@
 		838305112263275B004F4E4E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838305102263275B004F4E4E /* Image.swift */; };
 		83841DBB227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */; };
 		83841DBE227DD92200D02B66 /* C400003LA9Mi3gUHcK.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */; };
+		839575B5227FE20D0043E997 /* boy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 839575B4227FE20D0043E997 /* boy.mp4 */; };
+		839575B7227FE2790043E997 /* OpenGLRenderVideoExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839575B6227FE2790043E997 /* OpenGLRenderVideoExample.swift */; };
 		8396F1D1226705700002FB3D /* large_leaves_70mp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8396F1D0226705700002FB3D /* large_leaves_70mp.jpg */; };
 		8399C352225B388800E538DC /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8399C351225B388800E538DC /* UIDeviceExtensions.swift */; };
 		8399C35B225C826A00E538DC /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8399C35A225C826A00E538DC /* UIApplicationExtensions.swift */; };
@@ -176,6 +178,8 @@
 		838305102263275B004F4E4E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitPlayMusicExample.swift; sourceTree = "<group>"; };
 		83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = C400003LA9Mi3gUHcK.mp4; sourceTree = "<group>"; };
+		839575B4227FE20D0043E997 /* boy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = boy.mp4; sourceTree = "<group>"; };
+		839575B6227FE2790043E997 /* OpenGLRenderVideoExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenGLRenderVideoExample.swift; sourceTree = "<group>"; };
 		8396F1D0226705700002FB3D /* large_leaves_70mp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_leaves_70mp.jpg; sourceTree = "<group>"; };
 		8399C351225B388800E538DC /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtensions.swift; sourceTree = "<group>"; };
 		8399C353225B58FA00E538DC /* GreatApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreatApp-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -294,6 +298,7 @@
 				83841DBA227DCE2900D02B66 /* AudioUnitPlayMusicExample.swift */,
 				8304AEC4227DFE8900F81267 /* MetalVeryBaseExample.swift */,
 				8304AECC227E06FD00F81267 /* AudioUnitPlayMusicWithAUGraphExample.swift */,
+				839575B6227FE2790043E997 /* OpenGLRenderVideoExample.swift */,
 			);
 			path = DemoList;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 		83841DBC227DD2EA00D02B66 /* Demo Music */ = {
 			isa = PBXGroup;
 			children = (
+				839575B4227FE20D0043E997 /* boy.mp4 */,
 				83841DBD227DD46400D02B66 /* C400003LA9Mi3gUHcK.mp4 */,
 				8304AECA227E06CB00F81267 /* C400003ebMYY2PGmn6.mp4 */,
 			);
@@ -612,6 +618,7 @@
 				8383050A22630A3F004F4E4E /* 153356hwfm6nim0076a07z.jpg in Resources */,
 				83C42D8222645F3E00BC11D4 /* b1188b03jw1eqzp6uek87g206408pu07.gif in Resources */,
 				83C42D7F22645F3E00BC11D4 /* WRgzhJ5lj8ALEx2KDflRqHbKYBohtqNsVMVUw1EcB5fxE1506838981714.gif in Resources */,
+				839575B5227FE20D0043E997 /* boy.mp4 in Resources */,
 				83C42D7422645D1300BC11D4 /* webp5.webp in Resources */,
 				838304FC22630A3F004F4E4E /* 312380_001.jpg in Resources */,
 				838304F622630A3F004F4E4E /* 2018081211050861_11.jpg in Resources */,
@@ -704,6 +711,7 @@
 				83C42D8622646E6700BC11D4 /* ImageFrame.swift in Sources */,
 				83D5F3F82259922B002B6FD3 /* DataExtensions.swift in Sources */,
 				83C42D682264498700BC11D4 /* ImageFormat.swift in Sources */,
+				839575B7227FE2790043E997 /* OpenGLRenderVideoExample.swift in Sources */,
 				8399C35D225C82A600E538DC /* URLExtensions.swift in Sources */,
 				83D5F3F12258810E002B6FD3 /* UIAlertControllerExtensions.swift in Sources */,
 				83236FB6226E2160000B902A /* UrlImageDisplayExample.swift in Sources */,

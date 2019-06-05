@@ -25,6 +25,7 @@ class SwiftTableViewController: UIViewController {
         addCell("AudioUnit播放音乐", className: "AudioUnitPlayMusicExample")
         addCell("AudioUnit播放音乐AUGraph方式", className: "AudioUnitPlayMusicWithAUGraphExample")
         addCell("Metal中的HelloWorld", className: "MetalVeryBaseExample")
+        addCell("OpenGL渲染视频", className: "OpenGLRenderVideoExample")
         addCell("测试界面", className: "TestViewController")
         tableView.reloadData()
     }
